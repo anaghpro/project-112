@@ -30,7 +30,7 @@ function speak() {
 }
 
 function check() {
-    img = document.getElementById("image_captured");
+    img = document.getElementById("captured_img");
     classifier.classify(img, gotResults);
 }
 
